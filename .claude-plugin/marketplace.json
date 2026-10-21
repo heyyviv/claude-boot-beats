@@ -1,0 +1,14 @@
+{
+  "name": "startup-song",
+  "owner": {
+    "name": "startup-song"
+  },
+  "plugins": [
+    {
+      "name": "startup-song",
+      "source": "./",
+      "description": "Plays a few seconds of a random song when Claude Code starts."
+    }
+  ],
+  "description": "A startup song for Claude Code."
+}

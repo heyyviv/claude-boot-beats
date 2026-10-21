@@ -1,0 +1,22 @@
+{
+  "name": "startup-song",
+  "version": "0.1.0",
+  "description": "Plays a few seconds of a random song when Claude Code starts, rotating between genres (30-second previews from the iTunes Search API).",
+  "userConfig": {
+    "genres": {
+      "type": "string",
+      "title": "Genres",
+      "description": "Comma-separated search words, used in turn: one per session start.",
+      "default": "pop, hip hop, retro hits"
+    },
+    "seconds": {
+      "type": "number",
+      "title": "Seconds",
+      "description": "How long to play (the preview is 30 seconds at most).",
+      "default": 10
+    }
+  },
+  "author": {
+    "name": "vivekdas"
+  }
+}
