@@ -12,7 +12,7 @@ Audio is Apple's official 30-second preview of each track; nothing is downloaded
 ## Install
 
 ```
-/plugin install startup-song --marketplace <github-user>/<repo>
+/plugin install startup-song --marketplace heyyviv/claude-boot-beats
 ```
 
 Or try it from a local copy:
