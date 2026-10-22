@@ -2,6 +2,8 @@
 
 A Claude Code plugin that plays a few seconds of a random song every time you start Claude Code.
 
+![The startup card: the song playing with a progress bar, the day streak, git status with recent commits, and an event from Wikipedia's on this day](docs/card.png)
+
 - Rotates through genres, one per session: **pop → hip hop → retro hits → pop …**
 - For each one, it searches the [iTunes Search API](https://performance-partners.apple.com/search-api) (free, no key) and plays a random song from the **top 10** results.
 - Shows a startup card above the prompt while it plays:
